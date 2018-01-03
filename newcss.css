@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    height: 750px;
+    width: 100%;
+    background: #55e6c5;
+    z-index: 1;
+    }
+
+.content {
+    height: 750px;
+    width:100%;
+    background: white;
+    z-index: 2;
+}
+
+.content h1 {
+    font-size: 40px;
+    color: #464646;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 30px 60px;
+}
+
+.content p {
+    font-size:20px;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 30px 60px;
+}
+
+.content img {
+  width: 15%;
+}
+
+#nav {
+    height: 57px;
+    width: 100%;
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 100;
+    -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
+
+}
+
+#logo h2 {
+  padding-top:250px;
+  text-align: center;
+  font-size: 400%;
+  font-family: "Arial", Arial, sans;
+  opacity: 0.9;
+}
+
+#nav li {
+  margin: 0px;
+  display:
+}
+
+#nav li a {
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  background-color: rgb(240,240,240,0);
+  float: right;
+}
+
+#nav li a:hover {
+  color: #FFFFFF;
+  background-color: #35af3b;
+}
+
+#wall_logo {
+    background: url(https://i.imgur.com/A5Rzk9t.jpg) repeat;
+    background-attachment: fixed;
+}
+
+#wall_1 {
+    background: url(http://i.imgur.com/1eycpdv.jpg) repeat;
+    background-attachment: fixed;
+}
+#wall_2 {
+    background: url(http://i.imgur.com/dhc4ylI.jpg) repeat;
+    background-attachment: fixed;
+}
+
+#content_logo {
+  position: relative;
+}
+
+#surprise img{
+  height: 25%;
+  width: 25;
+}
+
+h1::first-letter {
+    font-size: 60px;
+    font-weight: 600;
+    color:#3cb0f8;
+}
